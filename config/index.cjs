@@ -37,6 +37,7 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2013-01-01' },
+        { keyword: 'marry_day', date: '2021-10-04' },
       ],
     },
     {
@@ -59,6 +60,7 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2013-01-01' },
+        { keyword: 'marry_day', date: '2021-10-04' },
       ],
     },
   ],
