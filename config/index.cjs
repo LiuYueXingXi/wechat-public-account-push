@@ -30,6 +30,9 @@ const USER_CONFIG = {
           type: '*生日', name: '勇宝贝', year: '1993', date: '03-22',
         },
         {
+          type: '*生日', name: '漂亮娟娟', year: '1994', date: '10-21',
+        },
+        {
           type: '节日', name: '结婚纪念日', year: '2021', date: '10-04',
         },
       ],
@@ -51,6 +54,9 @@ const USER_CONFIG = {
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: '*生日', name: '勇宝贝', year: '1993', date: '03-22',
+        },
+         {
+          type: '*生日', name: '娟宝贝', year: '1994', date: '10-21',
         },
         {
           type: '节日', name: '结婚纪念日', year: '2021', date: '10-04',
