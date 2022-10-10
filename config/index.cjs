@@ -92,6 +92,29 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2022-06-12' },
       ],
     },
+    {
+      // 想要发送的人的名字
+      name: '美王王',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'o6Gnm6EkQltXFj2J-SxSZkGMOI7A',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'NIgX4ZekPk2krcbzbGVBIF-Os0yx_t3UxBeInhdqK1Y',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+         {
+          type: '*生日', name: '美王王', year: '1993', date: '09-07',
+        },
+        {
+          type: '节日', name: '结婚纪念日', year: '2022', date: '06-12',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 相遇的日子
+        { keyword: 'meet_day', date: '2012-08-31' },
+        { keyword: 'marry_day', date: '2022-06-12' },
+      ],
+    },
   ],
 
 }
