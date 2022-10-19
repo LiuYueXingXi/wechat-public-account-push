@@ -47,13 +47,41 @@ const USER_CONFIG = {
     },
     {
       // 想要发送的人的名字
+      name: '勇宝贝',
+      province:'江苏',
+      city:'南京',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'o6Gnm6ORZaNxYdXvXHwrsDssVR90',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'Gk7oSqMYpHX4CD7B2Wx61cg0UXYqFkV4JHWDxIAiT6Q',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '勇宝贝', year: '1993', date: '03-22',
+        },
+         {
+          type: '*生日', name: '娟宝贝', year: '1994', date: '10-21',
+        },
+        {
+          type: '节日', name: '结婚纪念日', year: '2021', date: '10-04',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2013-01-01' },
+        { keyword: 'marry_day', date: '2021-10-04' },
+      ],
+    },
+    {
+      // 想要发送的人的名字
       name: '美王王',
       province:'安徽',
       city:'合肥',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o6Gnm6ORZaNxYdXvXHwrsDssVR90',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'AN2l7Cy1UmYUZa5mSuOOEjdvLS86dv-zEIx2sC4KLxE',
+      useTemplateId: '-nZidHmxRMpyebiZrx30qYpbtRggcI-6KmMyRmCQSNE',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
          {
@@ -78,7 +106,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o6Gnm6ORZaNxYdXvXHwrsDssVR90',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'AN2l7Cy1UmYUZa5mSuOOEjdvLS86dv-zEIx2sC4KLxE',
+      useTemplateId: '-nZidHmxRMpyebiZrx30qYpbtRggcI-6KmMyRmCQSNE',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
          {
