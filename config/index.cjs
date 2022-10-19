@@ -20,6 +20,8 @@ const USER_CONFIG = {
     {
       // 想要发送的人的名字
       name: '勇宝贝',
+      province:'江苏',
+      city:'南京',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o6Gnm6ORZaNxYdXvXHwrsDssVR90',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -46,6 +48,8 @@ const USER_CONFIG = {
     {
       // 想要发送的人的名字
       name: '勇宝贝',
+      province:'江苏',
+      city:'南京',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o6Gnm6ERiXqR4EwXjJGKr7oQ2mIo',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -72,6 +76,8 @@ const USER_CONFIG = {
     {
       // 想要发送的人的名字
       name: '美王王',
+      province:'安徽',
+      city:'合肥',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o6Gnm6ORZaNxYdXvXHwrsDssVR90',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -95,8 +101,10 @@ const USER_CONFIG = {
     {
       // 想要发送的人的名字
       name: '美王王',
+      province:'安徽',
+      city:'合肥',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o6Gnm6EkQltXFj2J-SxSZkGMOI7A',
+      id: 'o6Gnm6ORZaNxYdXvXHwrsDssVR90',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'NIgX4ZekPk2krcbzbGVBIF-Os0yx_t3UxBeInhdqK1Y',
       festivals: [
